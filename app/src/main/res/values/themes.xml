@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.NetTorrent" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your color palette here. -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/accent_green</item>
+        <item name="colorSecondaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="colorError">@color/error_red</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        
+        <!-- Backgrounds -->
+        <!-- Let Material3 handle colorBackground and windowBackground automatically -->
+    </style>
+    
+    <!-- Custom TabLayout Style -->
+    <style name="CustomTabLayoutStyle" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicatorColor">@color/primary_green</item>
+        <item name="tabSelectedTextColor">?attr/colorOnSurface</item>
+        <item name="tabTextColor">?android:attr/textColorSecondary</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">fill</item>
+    </style>
+</resources>
